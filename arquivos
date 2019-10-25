@@ -1,0 +1,88 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <math.h>
+
+
+int main(void) {
+
+
+    /*  FILE *fArq;
+
+  char nome[50];
+
+    fArq = fopen("C:\\Users\\user\\Desktop\\teste.txt", "wt"); // é equivalente ao malloc
+    
+    if(fArq != NULL){ // posso usar o arquivo
+
+        printf("Criei o Arquivo!\n");
+        printf("Digite seu nome: \n");
+        scanf(" %49[^\n]", nome);
+        fprintf(fArq, "Seu nome é: \n");
+        fprintf(fArq, " %s\n", &nome);
+
+        //uso o arquivo
+
+        fclose(fArq);
+    }
+    */
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    /* FILE *fArq;
+
+  char nome[50];
+
+    fArq = fopen("C:\\Users\\user\\Desktop\\teste.txt", "rt"); // é equivalente ao malloc
+    
+    if(fArq != NULL){ // posso usar o arquivo
+
+        fscanf(fArq, " %49[^\n]", nome);
+        printf("Recuperei <<<<< %s >>>>>\n", nome);
+
+        //uso o arquivo
+
+        fclose(fArq);
+    }
+    
+    */
+
+    /////////////////////////////////////////////////////////////////////////////////////////////////
+
+    /*  FILE *fArq;
+
+  char nome[50];
+  float altura;
+  int idade;
+
+
+
+    fArq = fopen("C:\\Users\\ymsc\\Desktop\\teste.txt", "wt"); // é equivalente ao malloc
+
+    if(fArq != NULL){ // posso usar o arquivo
+
+        printf("\nCriei o Arquivo!\n");
+        printf("\nDigite seu nome: \n");
+        scanf(" %49[^\n]", nome);
+        printf("\nDigite sua Altura: \n");
+        scanf("%f", &altura);
+        printf("\n Digite sua idade: \n");
+        scanf("%d", &idade);
+        printf("\n Arquivo criado com sucesso!\n");
+
+        fprintf(fArq, "Seu nome é:\n ");
+        fprintf(fArq, " %s\n", nome);
+        fprintf(fArq, "Sua Altura é:\n ");
+        fprintf(fArq, "%.2f\n", altura);
+        fprintf(fArq, "Sua idade é: \n");
+        fprintf(fArq, "%d\n", idade);
+
+
+        //uso o arquivo
+
+        fclose(fArq);
+    }
+
+    */
+  return 0;
+}
