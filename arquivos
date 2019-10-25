@@ -1,7 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <math.h>
+#include <stdio.h>  // Biblioteca de interação entrada/saída
+#include <stdlib.h> // Biblioteca extra
+#include <string.h> // Biblioteca de interação com strings 
+#include <math.h>   // Biblioteca de funções matemáticas
 
 
 int main(void) {
